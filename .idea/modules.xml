@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-pattern/api-gateway-pattern.iml" filepath="$PROJECT_DIR$/api-gateway-pattern/api-gateway-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/springbootdemo.iml" filepath="$PROJECT_DIR$/user-service/springbootdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/track-service.iml" filepath="$PROJECT_DIR$/track-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/track-service/track-service (1).iml" filepath="$PROJECT_DIR$/track-service/track-service (1).iml" />
+    </modules>
+  </component>
+</project>

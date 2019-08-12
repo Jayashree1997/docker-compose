@@ -1,0 +1,33 @@
+version: "3"
+services:
+ mongo:
+   image: mongo
+   container_name: docker-mongo
+   ports:
+     - 27017:27017
+
+
+ trackservice:
+    build: track-service/.
+    restart: always
+    depends_on:
+        - mongo
+        - configserver
+    links:
+        - mongo
+        - configserver
+        - eurekaserver
+    ports:
+        - 8080:8080
+
+ configserver:
+   build: config-server/.
+   ports:
+        - 8084:8084
+
+
+ eurekaserver:
+   build: eureka-server/.
+   ports:
+        - 8081:8081
+
